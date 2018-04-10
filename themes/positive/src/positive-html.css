@@ -1,6 +1,6 @@
 html, body, main, section, header, ul, p, h1, h2, h3 {
   font-family: {{{fontList 'default'}}};
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.4;
   margin: 0; padding: 0;
   display: block;
@@ -40,7 +40,7 @@ h1 {
 h2 {
   text-transform: uppercase;
   color: #898989;
-  font-size: 2em;
+  font-size: 1.8em;
   position: relative;
   font-weight: 400;
 }
@@ -52,7 +52,7 @@ h3, .tenure {
 
 h3 {
   margin-top: 0;
-  margin-bottom: 5px;
+  margin-bottom: 2px;
   /*width: 85%;*/
   float: left;
 }
@@ -160,7 +160,7 @@ h1 {
 }
 
 h1, h2, .label {
-  font-size: 2.5em;
+  font-size: 2em;
   text-transform: uppercase;
   font-weight: 300;
   font-family: {{{fontList 'heading1'}}}
@@ -181,16 +181,16 @@ header > span.fa {
   margin-right: 3px;
   position: absolute;
   width: 40px;
-  top: 14px;
+  top: 4px;
   font-size: 30px;
   /*transform: translateX(-110%); PDF no likey */
   margin-left: -50px;
-  color: #DADADA;
+  color: #898989;
 }
 
 .label {
   float: right;
-  color: #DADADA;
+  color: #898989;
 }
 
 #summary {
