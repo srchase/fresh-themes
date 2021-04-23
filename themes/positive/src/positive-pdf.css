@@ -87,7 +87,7 @@ section {
 }
 
 section > div {
-  margin-top: 1.5em;
+  margin-top: 0.5em;
   overflow: hidden; /* Clear floated children */
 }
 
@@ -143,6 +143,7 @@ p, li {
 span.keywords {
   font-size: 12px;
   color: #B16666;
+  line-height: 1.5em;
 }
 
 thead {
@@ -196,7 +197,7 @@ header > span.fa {
 #summary {
   color: #717171;
   font-size: 1.25em;
-  margin-top: 6em;
+  margin-top: 3em;
 }
 
 #skills td {

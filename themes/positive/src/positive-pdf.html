@@ -10,7 +10,7 @@
   <body>
     <main>
       <header>
-        <h1>{{{initialWords r.name }}} <span style="color: #C00000;">{{{lastWord r.name }}}</span></h1>
+        <h1>{{{initialWords r.name }}} {{{lastWord r.name }}}</h1>
         <span class="label">{{{ r.info.label }}}</span>
         <p id="contact">
           {{#if r.contact.email}}<span class="email"><a href="mailto:{{ RAW.contact.email }}">{{{ r.contact.email }}}</a></span>{{/if}}
@@ -36,17 +36,14 @@
         icon into the global partial. For this theme, we're using Font Awesome.
       -->}}
 
-      {{#*inline "icon-skills"}}<span class="fa fa-lg fa-code"></span>{{/inline}}
-      {{> skills _icon="icon-skills"}}
-
-      {{#*inline "icon-education"}}<span class="fa fa-lg fa-mortar-board"></span>{{/inline}}
-      {{> education _icon="icon-education"}}
+      {{#*inline "icon-employment"}}<span class="fa fa-lg fa-building"></span>{{/inline}}
+      {{> employment _icon="icon-employment"}}
 
       {{#*inline "icon-projects"}}<span class="fa fa-lg fa-star"></span>{{/inline}}
       {{> projects _icon="icon-projects"}}
 
-      {{#*inline "icon-employment"}}<span class="fa fa-lg fa-building"></span>{{/inline}}
-      {{> employment _icon="icon-employment"}}
+      {{#*inline "icon-education"}}<span class="fa fa-lg fa-mortar-board"></span>{{/inline}}
+      {{> education _icon="icon-education"}}
 
       {{#*inline "icon-affiliation"}}<span class="fa fa-lg fa-share-alt"></span>{{/inline}}
       {{> section/affiliation _icon="icon-affiliation"}}
